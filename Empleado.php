@@ -35,7 +35,9 @@
         }
 
         public function mostrar(){
-            return "Esta empleado " . $this->nombre . " " . $this->apellido . " con el NSS: " . $this->numeroSeguridadSocial;
+            return "<p>Esta empleado " . $this->nombre . " " . $this->apellido . " con el NSS: " . $this->numeroSeguridadSocial . "</p>";
         }
+
+        public abstract function ingresos();
     }
 ?>

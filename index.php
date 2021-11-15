@@ -4,6 +4,5 @@
     $empleadoAdicional = new Empleado("David", "Burguete", "83-19385826-73");
 
     echo $empleado->mostrar();
-    echo "<br>";
     echo $empleadoAdicional->mostrar();
 ?>
