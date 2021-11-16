@@ -1,5 +1,5 @@
 <?php 
-    class Empleado{
+    abstract class Empleado{
         private $nombre;
         private $apellido;
         private $numeroSeguridadSocial;

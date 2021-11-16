@@ -1,8 +1,9 @@
 <?php
-    include "Empleado.php";
-    $empleado = new Empleado("Iñigo", "Alonso", "23-28640415-39");
-    $empleadoAdicional = new Empleado("David", "Burguete", "83-19385826-73");
+    include "EmpleadoPlantilla.php";
+    $empleadoPlantilla = new EmpleadoPlantilla("Jon", "García", "30-38327317-23", 47, 24);
+    $empleadoPlantillaAdicional = new EmpleadoPlantilla("David", "Burguete", "83-19385826-73", 173, 201);
 
-    echo $empleado->mostrar();
-    echo $empleadoAdicional->mostrar();
+
+    echo $empleadoPlantilla->mostrar();
+    echo $empleadoPlantillaAdicional->mostrar();
 ?>

@@ -4,8 +4,8 @@
         private $sueldo;
         private $dietas;
 
-        __construct($nombre, $apellido, $numeroSS, $sueldo, $dietas){
-            parent::__construct($nombre, $apellido, $$numeroSS);
+        function __construct($nombre, $apellido, $numeroSS, $sueldo, $dietas){
+            parent::__construct($nombre, $apellido, $numeroSS);
             $this->sueldo = $sueldo;
             $this->dietas = $dietas;
         }
