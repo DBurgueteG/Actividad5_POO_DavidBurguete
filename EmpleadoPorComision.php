@@ -1,5 +1,4 @@
 <?php
-    include_once "Empleado.php";
     class EmpleadoPorComision extends Empleado{
         private $horas;
         private $tarifa;
@@ -35,7 +34,7 @@
         public function setBase($base){
                 $this->base = $base;
         }
-
+        
         public function mostrar(){
             return parent::mostrar() . "<p>Los ingresos " . $this->ingresos() . "</p>";
         }
